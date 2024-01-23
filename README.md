@@ -9,11 +9,11 @@ if target in list:
     print("The minimun number of coins needed (1)")
     
     
-#if the target is 0 then required is 0 coin
+# if the target is 0 then required is 0 coin
 elif target == 0:
         print("The minimun number of coins needed (0)")
 
-#if target is different then - 
+# if target is different then - 
 elif target != sum :
     for i in list:
         sum = sum + i
